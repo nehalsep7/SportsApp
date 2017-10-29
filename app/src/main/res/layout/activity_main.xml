@@ -4,8 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.nehal.sportsapp.MainActivity">
+    tools:context="com.example.nehal.sportsapp.MainActivity"
+    android:orientation="vertical">
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Please select an option from dropdown to fetch news."
+       android:layout_margin="10dp" />
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner">
 
+    </android.support.v7.widget.AppCompatSpinner>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -13,7 +24,7 @@
             android:id="@+id/recycleView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="8dp"
+            android:padding="10dp"
             />
     </ScrollView>
 

@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">SportsApp</string>
+    <string-array name="query_options">
+        <item>​sports</item>
+        <item>bollywood</item>
+        <item>politics</item>
+        <item>art</item>
+        <item>Select an item</item>
+    </string-array>
+    <string name="title_activity_detail">DetailActivity</string>
 </resources>

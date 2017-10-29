@@ -21,7 +21,7 @@ public class Hit {
     public Object storyUrl;
     public Object parentId;
     public Integer createdAtI;
-    public List<String> tags = null;
+    public List<String> _tags = null;
     public String objectID;
     public HighlightResult highlightResult;
 
@@ -130,11 +130,11 @@ public class Hit {
     }
 
     public List<String> getTags() {
-        return tags;
+        return _tags;
     }
 
-    public void setTags(List<String> tags) {
-        this.tags = tags;
+    public void setTags(List<String> _tags) {
+        this._tags = _tags;
     }
 
     public String getObjectID() {

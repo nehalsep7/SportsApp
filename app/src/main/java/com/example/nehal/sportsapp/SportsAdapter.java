@@ -1,6 +1,7 @@
 package com.example.nehal.sportsapp;
 
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,7 +35,19 @@ public class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.MyViewHold
     @Override
     public void onBindViewHolder(SportsAdapter.MyViewHolder holder, int position) {
         Hit hit = list.get(position);
-        holder.title.setText(hit.getTitle());
+        StringBuilder sb = new StringBuilder();
+        if(!TextUtils.isEmpty(hit.getTitle()))
+            holder.title.setText(hit.getTitle());
+        if(!TextUtils.isEmpty(hit.getAuthor()))
+            holder.author.setText("Author: "+hit.getAuthor());
+        if(hit.getTags() != null && hit.getTags().size() > 0){
+            for (String tagName:hit.getTags()) {
+                sb.append(" "+tagName);
+            }
+            holder.tags.setText("Tags: "+sb.toString());
+        }
+
+
 
     }
 
@@ -44,10 +57,12 @@ public class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.MyViewHold
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        public TextView title;
+        public TextView title,author,tags;
         public MyViewHolder(View itemView) {
             super(itemView);
             title = (TextView) itemView.findViewById(R.id.title);
+            author = (TextView)itemView.findViewById(R.id.author);
+            tags = (TextView)itemView.findViewById(R.id.tags);
 
         }
     }

@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
+        jar="/home/nehal/AndroidStudioProjects/SportsApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c8f7e1828d6e1124f7b3614a11648d6008d37578">
+        <dex dex="/home/nehal/AndroidStudioProjects/SportsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1d64244b88ff4c0bed1f2af0235dc9c7a2789e12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/nehal/AndroidStudioProjects/SportsApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="/home/nehal/AndroidStudioProjects/SportsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d27d58c62a3ad680f9febfa515762963cf72fe69/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/nehal/AndroidStudioProjects/SportsApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="58ec0be52954baed899ff339c70a044ff9419a59">
-        <dex dex="/home/nehal/AndroidStudioProjects/SportsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1d64244b88ff4c0bed1f2af0235dc9c7a2789e12/classes.dex" />
     </item>
 
 </items>

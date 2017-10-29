@@ -5,9 +5,6 @@ import android.content.Context;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-/**
- * Created by nehal on 18/10/17.
- */
 
 public class AppUtils {
 

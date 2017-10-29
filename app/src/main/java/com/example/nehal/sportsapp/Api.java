@@ -5,9 +5,6 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 
-/**
- * Created by nehal on 18/10/17.
- */
 
 public interface Api {
 

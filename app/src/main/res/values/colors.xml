@@ -3,4 +3,5 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="missing_field_color">@android:color/holo_red_dark</color>
 </resources>
